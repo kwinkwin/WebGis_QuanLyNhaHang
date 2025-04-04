@@ -1,0 +1,1 @@
+INSERT INTO gis.MapView (id, projectionId, zoom, maxZoom, longitude, latitude, extent, locationId) VALUES (14, 2, 10, 18, 108.072, 16.0769, '[480247.01089557493,1748114.449749959,584247.0108955749,1808114.449749959]', 15);

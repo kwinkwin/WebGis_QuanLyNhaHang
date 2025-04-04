@@ -1,0 +1,9 @@
+version: "2"
+authtoken: 2ebE9aLByBIrD6ORQCuPJn9BEem_7Mv79mV8jERGC4NgJnzr
+tunnels:
+  app1:
+    addr: 9000
+    proto: http
+  app2:
+    addr: 3000
+    proto: http

@@ -1,0 +1,1 @@
+INSERT INTO gis.Location (id, name, description, workspace, createdAt, updatedAt, createdById, updatedById) VALUES (15, 'Đà Nẵng', '', 'MapDaNang', '2024-04-03 13:35:50.725', '2024-04-03 13:35:50.725', null, null);
