@@ -372,6 +372,12 @@ export const actionAddLayerGeoJSON = ({ layer, workspace, map}) => {
         dataProjection = crsName.match(/EPSG:\d+/)[0] || "EPSG:3857"
         await fromEPSGCode(dataProjection)
       }
+      console.log("CRS Name:", crsName);
+      console.log("Data projection detected:", dataProjection);
+
+      const defaultProjection = unref(map).getView().getProjection().getCode();
+      console.log("Map default projection:", defaultProjection);
+
       if (jsonData?.hasOwnProperty('features')) {
         const feature = new GeoJSON().readFeatures(jsonData);
         feature.forEach((f) => {
