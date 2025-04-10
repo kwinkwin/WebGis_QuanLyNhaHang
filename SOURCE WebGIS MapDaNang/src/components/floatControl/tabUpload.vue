@@ -152,7 +152,7 @@ export default defineComponent({
     const uploadVector = ref(null);
     const styleCache = {}
     const uploadList = ref([]);
-    const checkboxList = ref([]);
+    const checkboxList = ref([]); 
 
     const checkFileType = (files) => {
       return files.filter((file) => file.type === "application/json");

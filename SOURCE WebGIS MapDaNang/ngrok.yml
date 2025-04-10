@@ -1,5 +1,5 @@
 version: "2"
-authtoken: 2ebE9aLByBIrD6ORQCuPJn9BEem_7Mv79mV8jERGC4NgJnzr
+authtoken: 2vIQsM7vfBvcrIBtFtr3cKMqzvW_6U4KJ7yHkssFvM1P6ZMhc
 tunnels:
   app1:
     addr: 9000
